@@ -26,6 +26,7 @@ CONF_SOURCE = "conf"
 
 # Class that manages how configuration is loaded.
 from kedro.config import TemplatedConfigLoader
+
 CONFIG_LOADER_CLASS = TemplatedConfigLoader
 # Keyword arguments to pass to the `CONFIG_LOADER_CLASS` constructor.
 CONFIG_LOADER_ARGS = {
