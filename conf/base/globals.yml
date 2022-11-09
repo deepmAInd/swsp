@@ -1,0 +1,13 @@
+paths:
+    data_path:  data
+  
+data_folders:
+    raw: 01_raw
+    intermediate: 02_intermediate
+    primary: 03_primary
+    feature: 04_feature
+    model_input: 05_model_input
+    models: 06_models
+    model_output: 07_model_output
+    reporting: 08_reporting
+
