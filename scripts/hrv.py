@@ -39,5 +39,5 @@ def rmssd(intervals: List[int]) -> float:
     return avg**0.5
 
 
-# intervals = clean_intervals(intervals)
+intervals = clean_intervals(intervals)
 print(rmssd(intervals))
