@@ -1,7 +1,6 @@
 import sys
 from typing import List
 import pandas as pd
-import time
 
 sys.setrecursionlimit(4000)
 
