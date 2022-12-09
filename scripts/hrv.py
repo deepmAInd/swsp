@@ -7,12 +7,12 @@ sys.setrecursionlimit(4000)
 intervals = pd.read_csv("./scripts/IBI.csv")[" IBI"].to_numpy() * 1000
 
 
-def find_local_maxima(bvp: List[int]) -> List[int]:
-    return [i for i in range(1, len(bvp) - 1) if bvp[i - 1] < bvp[i] > bvp[i + 1]]
+# def find_local_maxima(bvp: List[int]) -> List[int]:
+#     return [i for i in range(1, len(bvp) - 1) if bvp[i - 1] < bvp[i] > bvp[i + 1]]
 
 
-def calc_intervals(bvp: List[int]) -> List[int]:
-    return [(1 / (abs(bvp[i] - bvp[i + 1]) * 64)) * 1000 for i in range(len(bvp) - 1)]
+# def calc_intervals(bvp: List[int]) -> List[int]:
+#     return [(1 / (abs(bvp[i] - bvp[i + 1]) * 64)) * 1000 for i in range(len(bvp) - 1)]
 
 
 def clean_intervals(intervals: List[int]) -> List[int]:
