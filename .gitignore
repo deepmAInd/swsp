@@ -165,3 +165,4 @@ venv.bak/
 *.json
 *.csv
 *.zip
+*.joblib
