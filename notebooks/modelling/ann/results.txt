@@ -1,41 +1,41 @@
 EDA:
    - merged
-	accuracy_score: 0.936
-	balanced_accuracy: 0.92
-	f1_score: 0.956
-	recall_score: 0.956
-	precision_score: 0.956
+	accuracy_score: 0.923
+	balanced_accuracy: 0.911
+	f1_score: 0.864
+	recall_score: 0.885
+	precision_score: 0.844
    - removed:
 	accuracy_score: 0.937
-	balanced_accuracy: 0.932
-	f1_score: 0.954
-	recall_score: 0.945
-	precision_score: 0.963
+	balanced_accuracy: 0.937
+	f1_score: 0.902
+	recall_score: 0.939
+	precision_score: 0.868
 top_5:
    - merged
-	accuracy_score: 0.963
-	balanced_accuracy: 0.951
-	f1_score: 0.974
-	recall_score: 0.978
-	precision_score: 0.971
+	accuracy_score: 0.973
+	balanced_accuracy: 0.97
+	f1_score: 0.952
+	recall_score: 0.962
+	precision_score: 0.943
    - removed:
-	accuracy_score: 0.94
-	balanced_accuracy: 0.934
-	f1_score: 0.956
-	recall_score: 0.95
-	precision_score: 0.963
+	accuracy_score: 0.958
+	balanced_accuracy: 0.941
+	f1_score: 0.922
+	recall_score: 0.904
+	precision_score: 0.94
 
 top_10:
    - merged
-	accuracy_score: 0.971
-	balanced_accuracy: 0.974
-	f1_score: 0.98
-	recall_score: 0.967
-	precision_score: 0.992
+	accuracy_score: 0.979
+	balanced_accuracy: 0.973
+	f1_score: 0.962
+	recall_score: 0.962
+	precision_score: 0.962
    - removed:
-	accuracy_score: 0.962
-	balanced_accuracy: 0.958
-	f1_score: 0.972
-	recall_score: 0.968
-	precision_score: 0.977
+	accuracy_score: 0.979
+	balanced_accuracy: 0.976
+	f1_score: 0.962
+	recall_score: 0.971
+	precision_score: 0.953
 	
